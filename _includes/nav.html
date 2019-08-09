@@ -1,0 +1,41 @@
+<header class="Header">
+    <div class="container">
+        <div class="upper text-right">
+            <ul class="inline-block">
+                <li><a href="tel:+{{ site.telephone }}" alt="+{{ site.telephone }}" title="+{{ site.telephone }}">+{{ site.telephonedetail }}</a></li>
+                <li><a href="mailto:{{ site.email }}" alt="{{ site.email }}" title="{{ site.email }}">{{ site.email }}</a></li>
+            </ul>
+        </div>
+        <div class="main clearfix">
+            <a class="logo pull-left" href="/" alt="{{ site.alt-logo }}" title="{{ site.alt-logo }}"></a>
+            <a href="#" class="burger pull-right" alt="menu" title="menu"></a>
+            <div class="pull-right collapsible">
+                <ul class="nav inline-block pull-left">
+                    <li><a href="/" title="HOME">HOME</a></li>
+                    <li><a href="/product/" title="PRODUCTS">PRODUCTS</a></li>
+                    <li><a href="/project/" title="PROJECTS">PROJECTS</a></li>
+                    <li><a href="/inspiration/" title="INSPIRATION">INSPIRATION</a></li>
+                    <li><a href="/about-us/" title="ABOUT US">ABOUT US</a></li>
+                    <li><a href="/contact/" title="CONTACT">CONTACT</a></li>
+                </ul>
+                <div class="searchbox pull-left" title="translate this page">
+                    <div class="searchbox-inner clearfix">
+                        <div id="google_translate_element" style="padding-left: 1px;"></div>
+                        <script type="text/javascript">
+                        function googleTranslateElementInit() {
+                            new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'id,ar,en,zh-CN', defaultLanguage: 'en', multilanguagePage: true, layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+                        }
+                        </script>
+                        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                    </div>
+                </div>
+                <ul class="SocialIcons pull-left">
+                    <li><a href="{{ site.facebook }}" class="icon icon-facebook" alt="{{ site.facebook }}" title="{{ site.facebook }}"></a></li>
+                    <li><a href="{{ site.instagram }}" class="icon icon-instagram" alt="{{ site.instagram }}" title="{{ site.instagram }}"></a></li>
+                    <li><a href="{{ site.twitter }}" class="icon icon-twitter" alt="{{ site.twitter }}" title="{{ site.twitter }}"></a></li>
+                    <li><a href="{{ site.youtube }}" class="icon icon-youtube" alt="{{ site.youtube }}" title="{{ site.youtube }}"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>

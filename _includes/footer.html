@@ -1,0 +1,48 @@
+<section class="Footer clearfix">
+    <div class="container">
+        <div class="Contact">
+            <div class="Title">
+                CONTACT
+            </div>
+            <div class="Content clearfix">
+                <div class="column is-huge">
+                    <a class="logo" href="/" alt="{{ site.alt-logo }}" title="{{ site.alt-logo }}"></a>
+                </div>
+                <div class="column">
+                    <p><a href="{{ site.maps }}" alt="{{ site.alt-logo }} maps and address" title="{{ site.alt-logo }} maps and address">{{ site.streetAddress }} {{ site.postalCode }}</a></p>
+                </div>
+                <div class="column">
+                    <p><a href="tel:+{{ site.telephone }}" alt="+{{ site.telephone }}" title="+{{ site.telephone }}" >+{{ site.telephonedetail }}</a><br><a href="mailto:{{ site.email }}" alt="{{ site.email }}" title="{{ site.email }}">{{ site.email }}</a></p>
+                </div>
+                <div class="column">
+                    <p>
+                        <a href="/about-us/">ABOUT US</a><br>
+                        <a href="/terms-and-conditions/">TERMS AND CONDITIONS</a><br>
+                    </p>
+                </div>
+                <div class="column">
+                    <ul class="SocialIcons pull-left">
+                        <li><a href="{{ site.facebook }}" class="icon icon-facebook" alt="{{ site.facebook }}" title="{{ site.facebook }}"></a></li>
+                        <li><a href="{{ site.instagram }}" class="icon icon-instagram" alt="{{ site.instagram }}" title="{{ site.instagram }}"></a></li>
+                        <li><a href="{{ site.twitter }}" class="icon icon-twitter" alt="{{ site.twitter }}" title="{{ site.twitter }}"></a></li>
+                        <li><a href="{{ site.youtube }}" class="icon icon-youtube" alt="{{ site.youtube }}" title="{{ site.youtube }}"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="Newsletter">
+            <div class="Title">
+                
+            </div>
+            <div class="Content">
+                <p class="mbr-text mbr-fonts-style display-7">
+                    {{ site.copyright }}. Designed by <a href="https://klikada.com/">
+                        <img src="/static/images/klikada-panjang.svg" width="75" height="10" layout="fixed" alt="klikada.com" title="klikada.com"></img>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+{% include service-worker.html %}
+{% include float-button.html %}

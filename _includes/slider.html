@@ -1,0 +1,9 @@
+<div class="container gapless">
+    <ul class="slick">
+        {% for item in site.data-slider %}
+        <li>
+            <img src="{{ item.image-url }}" alt="{{ item.alt }}" title="{{ item.alt }}">
+        </li>
+        {% endfor %}
+    </ul>
+</div>

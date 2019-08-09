@@ -1,0 +1,49 @@
+<title>{{ page.title }} | {{ site.company }}</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">
+<link rel="canonical" href="{{ page.url | replace:'index.html',''}}">
+<meta name="generator" content="klikada generator v1.9, klikada.com">
+<meta name="theme-color" content="#{{ site.themecolor }}"/>
+<meta name="keywords" lang="{{ site.lang }}" content="{{ site.keywords }}">
+<link rel="alternate" href="{{ site.siteurl }}" hreflang="{{ site.lang }}" />
+<!-- This site is optimized with the Yoast SEO plugin v3.6.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="{{ page.description }}"/>
+<!-- You can use Open Graph tags to customize link previews.Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+<meta property="fb:app_id" content="{{ site.fb_app_id }}" />
+<meta property="og:locale" content="{{ site.locale }}" />
+<meta property="og:url" content="{{ site.siteurl }}{{ page.url }}" />
+<meta property="og:type" content="{{ site.type }}" />
+<meta property="og:site_name" content="{{ site.company }}" />
+<meta property="og:title" content="{{ page.title }} | {{ site.company }}" />
+<meta property="og:description" content="{{ page.description }}" />
+<meta property="og:image" content="{{ site.siteurl }}{{ page.photos }}" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{{ site.twitter }}">
+<meta name="twitter:creator" content="@{{ site.creator }}">
+<meta name="twitter:title" content="{{ page.title }} | {{ site.company }}">
+<meta name="twitter:description" content="{{ page.description }}">
+<meta name="twitter:image" content="{{ site.siteurl }}{{ page.photos }}">
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"{{ site.type }}","@id":"#{{ site.type }}","url":"https:\/\/{{ site.company }}\/","name":"{{ page.title }} - {{ site.title }} - {{ site.company }}","potentialAction":{"@type":"SearchAction","target":"https:\/\/{{ site.company }}\/?s={search_term_string}","query-input":"required name=search_term_string"},"image":"{{ site.siteurl }}{{ page.photos }}","address":{
+"streetAddress":"{{ site.streetAddress }}","name": "{{ site.address }}","postalCode": "{{ site.postalCode }}"},"telephone":"{{ site.telephone }}","priceRange":"100.000"}</script>
+<!-- / Yoast SEO plugin. -->
+<link rel="manifest" href="/manifest.json">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" sizes="120x120" href="{{ site.favicon }}">
+<link rel="apple-touch-icon" sizes="152x152" href="{{ site.favicon }}">
+<link rel="apple-touch-icon" sizes="167x167" href="{{ site.favicon }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.favicon }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ site.favicon }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ site.favicon }}">
+<link rel="mask-icon" href="{{ site.favicon }}" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#00aba9">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:300,400,700&amp;subset=latin-ext">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
+<link rel="stylesheet" href="/static/app.css?4">
+<script src="/static/jquery-3.1.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script src="/static/netteAjax/nette.ajax.js"></script>
+<script src="/static/netteAjax/extensions/spinner.ajax.js"></script>
+<script src="/static/app.js?1"></script>
