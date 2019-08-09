@@ -1,0 +1,112 @@
+---
+layout: home
+title: Marble Handicrafts
+description: Marble Handicrafts in Indonesia
+photos: /assets/images/mbr-736x460.jpg
+---
+<div class="HomepageSection">
+    {% include slider.html %}
+    <div class="Upcoming">
+        <div class="container">
+            <a href="/inspiration/">
+                <div class="tile is-big">
+                    <img src="/images/products/d.jpeg" alt="FOR INSPIRATION" title="FOR INSPIRATION">
+                    <div class="Detail is-white">
+                        <div class="Title">FOR INSPIRATION</div>
+                        <div class="Description"></div>
+                        <div class="More">
+                            <span>MORE &gt;</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            {% for item in site.data-product limit:1 %}
+            <a href="{{ item.url }}">
+                <div class="tile is-big is-gapless">
+                    <div class="clearfix">
+                        <div class="tile is-small">
+                            <img src="{{ item.photos }}" alt="{{ item.title-product }}" title="{{ item.title-product }}">
+                        </div>
+                        <div class="tile is-small">
+                            <div class="Detail">
+                                <div class="Title">{{ item.title-product }}</div>
+                                <div class="Description">{{ item.description }}</div>
+                                <div class="More">
+                                    <span>MORE &gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </a>
+            {% endfor %}
+            {% for item in site.data-project limit:1 %}
+            <a href="{{ item.url }}">
+                <div class="clearfix">
+                    <div class="tile is-small">
+                        <div class="Detail">
+                            <div class="Title">{{ item.title-product }}</div>
+                            <div class="Description">{{ item.description }}</div>
+                            <div class="More">
+                                <span>MORE &gt;</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile is-small">
+                        <img src="{{ item.photos }}" alt="{{ item.title-product }}" title="{{ item.title-product }}">
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<br>
+<div class="HomepageSection">
+    <div class="Upcoming">
+        <div class="container">
+            {% for post in site.posts %}
+            <a href="{{ post.url }}">
+                <div class="clearfix">
+                    <div class="tile{{ post.posisiText }} is-small">
+                        <div class="Detail">
+                            <div class="Title">{{ post.title }}</div>
+                            <div class="Description">{{ post.description }}</div>
+                            <div class="More">
+                                <span>MORE &gt;</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile{{ post.posisiText }} is-small">
+                        <img src="{{ post.photos }}" alt="{{ post.title }}" title="{{ post.title }}">
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<div class="AboutUs">
+    <div class="container">
+        <h1 class="Title">Marble Handicrafts by Ellogue.com</h1>
+        <div class="Description">
+            <h2><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:triviaseznam,helvetica,arial,sans-serif; font-size:16px">
+                    We are marble craftsmen who have a passion for modern design and love marble as a natural material that makes it possible to create extraordinary products with beautiful original marble stone textures and unique colors.&nbsp;</span></h2>
+            <p><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:triviaseznam,helvetica,arial,sans-serif; font-size:16px">
+                    During our production, we strive to incorporate things that are manually made by human hands and by using the most advanced technology to get a modern design.
+                    &nbsp;</span></p>
+            <p><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:triviaseznam,helvetica,arial,sans-serif; font-size:16px">
+                    Each of our products is handmade throughout the process, from initial design to final realization. In every phase of our production: design and manufacturing of products and quality control, we use proven technology procedures and our handmade productions.
+                    &nbsp;</span></p>
+            <p><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:triviaseznam,helvetica,arial,sans-serif; font-size:16px">
+                    We like to use natural things for every production of our business.
+                    &nbsp;</span></p>
+            <p><span style="background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); font-family:triviaseznam,helvetica,arial,sans-serif; font-size:16px">
+                    We look forward to communicating with you.
+                    &nbsp;</span></p>
+        </div>
+        <div class="More">
+            <a href="/about-us/">MORE ></a>
+        </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,30 @@
+---
+layout: home
+title: Inspiration
+description: Inspiration Marble Handicrafts in Indonesia
+photos:
+---
+<div class="HomepageSection">
+    <div class="Upcoming">
+        <div class="container">
+            {% for post in site.posts %}
+            <a href="{{ post.url }}">
+                <div class="clearfix">
+                    <div class="tile{{ post.posisiText }} is-small">
+                        <div class="Detail">
+                            <h1 class="Title">{{ post.title }}</h1>
+                            <h2 class="Description">{{ post.description }}</h2>
+                            <div class="More">
+                                <span>MORE &gt;</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile{{ post.posisiText }} is-small">
+                        <img src="{{ post.photos }}" alt="{{ post.title }}" title="{{ post.title }}">
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>

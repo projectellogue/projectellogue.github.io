@@ -1,0 +1,35 @@
+---
+layout: home
+title: Product
+description:
+photos:
+---
+<div class="CategoriesSection">
+    <div class="container">
+        <div class="Breadcrumbs">
+            <ul class="inline-block">
+                <li><a href="/">{{ site.company }}</a></li>
+                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            </ul>
+        </div>
+        <div class="Detail">
+            <div class="Text ProductDetailBox">
+                <h1 class="Title">{{ page.title }}</h1>
+            </div>
+        </div>
+        <div class="clearfix">
+            {% for item in site.data-product %}
+            <a href="{{ item.url }}">
+                <div class="Product ProductCategory">
+                    <div class="Description">
+                        <p class="Title">{{ item.title-product }}</p>
+                    </div>
+                    <div class="Image">
+                        <img src="{{ item.photos }}" alt="{{ item.title-product }}">
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>

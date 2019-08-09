@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+<head>
+    {% include metadata.html %}
+</head>
+
+<body>
+    <noscript>
+        <p class="Title">Untuk tampilan yang lebih baik, Mohon Aktifkan Javascript Anda</p>
+    </noscript>
+    {% include nav.html %}
+    <div class="ProductDetailSection">
+        <div class="container">
+            <div class="Breadcrumbs">
+                <ul class="inline-block">
+                    <li><a href="/">{{ site.company }}</a></li>
+                    <li><a title="project" href="/project/">project</a></li>
+                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                </ul>
+            </div>
+            <div class="Detail">
+                <div class="Text">
+                    <div class="ProductDetailBox is-big">
+                        <h1 class="Title">{{ page.title-product }}</h1>
+                        <h2 class="Subtitle">{{ page.subtitle-product }}</h2>
+                        <div class="Description">
+                            <p>
+                            	{{ page.description }}
+                                <br>
+                                <br>
+                                {{ page.description-product1 }}
+                                <br>
+                                <br>
+                                {{ page.description-product2 }}
+                                <br>
+                                <br>
+                                {{ page.description-product3 }}
+                            </p>
+                        </div>
+                        <div class="Parameters">
+                            <dl>
+                                <dt>Material  :</dt><dd>{{ page.bahan-product }}</dd>
+                            </dl>
+                            <dl>
+                                <dt>Size :</dt><dd>{{ page.ukuran-product }}</dd>
+                            </dl>
+                            <dl>
+                                <dt>Color  :</dt><dd>{{ page.warna-product }}</dd>
+                            </dl>
+                        </div>
+                        <br>
+						<div class="form-horizontal">
+							<a type="submit" href="https://api.whatsapp.com/send?text=Order%20{{ page.title-product }}%20{{ page.subtitle-product }}%20(Name)%20(Full%20Address)%20&phone={{ site.telephone }}" class="Button">Order Like This</a>
+						</div>
+                    </div>
+                </div>
+                <div class="Preview">
+                    <div class="Image">
+                        <ul>
+                            <li><a href="{{ page.photos }}" data-lightbox="betton" data-title="{{ page.title-product }}"><img src="{{ page.photos }}" alt="{{ page.title-product }}"></a></li>
+                        </ul>
+                    </div>
+                    <div class="Thumbnails">
+                        <ul>
+                            <li><a href="{{ page.thumbnails1 }}" data-lightbox="betton" data-title="{{ page.thumbnails1-alt }}"><img src="{{ page.thumbnails1 }}" alt="{{ page.thumbnails1-alt }}"></a></li>
+                            <li><a href="{{ page.thumbnails2 }}" data-lightbox="betton" data-title="{{ page.thumbnails2-alt }}"><img src="{{ page.thumbnails2 }}" alt="{{ page.thumbnails2-alt }}"></a></li>
+                            <li><a href="{{ page.thumbnails3 }}" data-lightbox="betton" data-title="{{ page.thumbnails3-alt }}"><img src="{{ page.thumbnails3 }}" alt="{{ page.thumbnails3-alt }}"></a></li>
+                            <li><a href="{{ page.thumbnails4 }}" data-lightbox="betton" data-title="{{ page.thumbnails4-alt }}"><img src="{{ page.thumbnails4 }}" alt="{{ page.thumbnails4-alt }}"></a></li>
+                            <li><a href="{{ page.thumbnails5 }}" data-lightbox="betton" data-title="{{ page.thumbnails5-alt }}"><img src="{{ page.thumbnails5 }}" alt="{{ page.thumbnails5-alt }}"></a></li>
+                            <li><a href="{{ page.thumbnails6 }}" data-lightbox="betton" data-title="{{ page.thumbnails6-alt }}"><img src="{{ page.thumbnails6 }}" alt="{{ page.thumbnails6-alt }}"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox.min.js"></script>
+    <script>
+    lightbox.option({
+        "albumLabel": "Photos number %1"
+    });
+    </script>
+    {% include footer.html %}
+</body>
+
+</html>

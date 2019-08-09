@@ -1,0 +1,42 @@
+creator: dennyrwa
+lang: en
+locale: en-gb
+themecolor: ffffff
+company: Ellogue Craft Gallery
+keywords: Marble Handicrafts
+logo: /assets/images/logo2.png
+alt-logo: Ellogue Craft Gallery
+youtube: 
+twitter: 
+instagram: https://www.instagram.com/marblehandicraft
+facebook: 
+copyright: © Copyright <strong>ellogue craft gallery</strong>. <br>All Rights Reserved and All the trademarks are the property of their respective owners
+whatsapp-float-desktop: https://web.whatsapp.com/send?phone=628125991737&text=Hallo, ellogue craft gallery
+whatsapp-float-phone: whatsapp://send?text=Hallo, ellogue craft gallery!&phone=+628125991737
+exclude: [README.md]
+email: info@ellogue.com
+type: LocalBusiness
+maps: https://goo.gl/maps/hM6iKoJJfMc6RQxHA
+streetAddress: Jl. Raya Popoh, Tulungagung, Indonesia
+address: Dsn Cerme, Rt 04 Rw 01, Desa Gamping, Kecamatan Campurdarat, Kabupaten Tulungagung, Jawa Timur
+postalCode: 66272
+telephonenya: Widhiyan Pandega
+telephone: +628125991737
+telephonedetail: +628125991737
+whatsapp-api: https://api.whatsapp.com/send?text=Hallo%20ellogue craft gallery.com%20(Nama)%20(Alamat)%20&phone=628125991737
+fb_app_id: 
+google-my-bussiness: 
+favicon: /favicon.ico
+siteurl: https://ellogue.com
+permalink: pretty
+plugins:
+  - jekyll-feed
+collections:
+  data-slider:
+    output: true
+  data-product:
+    output: true
+    permalink: /product/:name/
+  data-project:
+    output: true
+    permalink: /project/:name/
