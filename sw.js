@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "2019/07/31/production-scale/index.html",
-    "revision": "f0dae160bb91f552b4889ea090696dc5"
+    "revision": "6f76b85dd6f28ba7ff419a12be487750"
   },
   {
     "url": "2019/08/01/marble-stone-processing-industry/index.html",
-    "revision": "031b66b1d05fad1498097dd0d9c4032a"
+    "revision": "251f600fc97a8482bfcfaed497f66cb5"
   },
   {
     "url": "404.html",
@@ -39,11 +39,11 @@ self.__precacheManifest = [
   },
   {
     "url": "about-us/index.html",
-    "revision": "601760e51ce9c27783d3be16eb13d314"
+    "revision": "4352581f5f3bbb908df6a45d8b2d9b1c"
   },
   {
     "url": "contact/index.html",
-    "revision": "08054f0357c4c5ecc1aa490268aa0bb5"
+    "revision": "8610f3accf6074ec7eb191aec48ddc22"
   },
   {
     "url": "data-slider/1/index.html",
@@ -63,7 +63,7 @@ self.__precacheManifest = [
   },
   {
     "url": "feed.xml",
-    "revision": "c10abe9fdf9b648ebf5c8195b86da0f8"
+    "revision": "ef136a7794933b93791eec2b2c668a98"
   },
   {
     "url": "images/icons/icon-128x128.png",
@@ -99,123 +99,123 @@ self.__precacheManifest = [
   },
   {
     "url": "images/products/1-teraso-cetak-1.jpeg",
-    "revision": "d20b4d5f0b37cef9b8e4ca99c52f75a1"
+    "revision": "88f88084823901cf172f33f441a0b8cd"
   },
   {
     "url": "images/products/1-teraso-cetak-2.jpeg",
-    "revision": "8ebc7e6e02020345c6667212c67706d5"
+    "revision": "8d71c73982499c56120692d5cf9aa17a"
   },
   {
     "url": "images/products/1-teraso-cetak-3.jpeg",
-    "revision": "a4700e06ec6bbab566786fb6c010ed07"
+    "revision": "92c13eebebe5ab876c0e452f36627071"
   },
   {
     "url": "images/products/1-teraso-cetak.jpeg",
-    "revision": "a0d082d26bf5bf59c7001b34bb7cd0f7"
+    "revision": "be58fc6ef439bd815b2c122970ae3d98"
   },
   {
     "url": "images/products/2-river-stone-1.jpeg",
-    "revision": "431eaa35e92b0ad0f6d986c7abc3fd7d"
+    "revision": "1c82142ed784ca536de52900d8869d76"
   },
   {
     "url": "images/products/2-river-stone-2.jpeg",
-    "revision": "01aa98c5f705e92026548a46edfce718"
+    "revision": "dd181ab2b85d03f544c6dfb6d0c9f98b"
   },
   {
     "url": "images/products/2-river-stone-3.jpeg",
-    "revision": "df50632c61fdf0a008799de842fe5ad0"
+    "revision": "f3d7ec43eeaed959f5e8010a6337299c"
   },
   {
     "url": "images/products/2-river-stone-4.jpeg",
-    "revision": "68da15d687998c2d706a6dbba9756bd4"
+    "revision": "e73676dc6585320ba14eec3c560e7628"
   },
   {
     "url": "images/products/2-river-stone.jpeg",
-    "revision": "bab36018196cdffd9c85050d55aec79b"
+    "revision": "10619168863995614e5ecb7d6e8b7216"
   },
   {
     "url": "images/products/3-white-marble-stone-1-1.jpeg",
-    "revision": "9f55e46d2730c50e5db79970d3cde5fe"
+    "revision": "e52c8c527b00ee4c7fbd9846429d981b"
   },
   {
     "url": "images/products/3-white-marble-stone-1-2.jpeg",
-    "revision": "e11d7aede3c4c638174ca06008a797ba"
+    "revision": "b9d4acae95bd4381a494307ff53aa64a"
   },
   {
     "url": "images/products/3-white-marble-stone-1.jpeg",
-    "revision": "c44321397aa8e422fc74f3582b8827be"
+    "revision": "77512b7f0b7ec0c79a4ac1f48b422ba9"
   },
   {
     "url": "images/products/3-white-marble-stone-2-1.jpeg",
-    "revision": "91529b6c0d75aaa1d852002c2fdb5b77"
+    "revision": "137ac7b0b006caa484de575e8504b657"
   },
   {
     "url": "images/products/3-white-marble-stone-2.jpeg",
-    "revision": "294a98cae08c339afad14cd7e9fa98aa"
+    "revision": "1bcb58745d17df022d5450e5d4fb94e7"
   },
   {
     "url": "images/products/3-white-marble-stone-3-1.jpeg",
-    "revision": "a2ec76937c797b74494166eb88173cec"
+    "revision": "f64c9550325bab20945cc73b24ee2377"
   },
   {
     "url": "images/products/3-white-marble-stone-3-2.jpeg",
-    "revision": "e7bbc285bfbf77ca0f0b12fb14289977"
+    "revision": "36581ad49f2a1c2dcb8fdd74af2eb862"
   },
   {
     "url": "images/products/3-white-marble-stone-3.jpeg",
-    "revision": "4ec4df9838e8bc1a54e850a79007de78"
+    "revision": "93da1759716ac70fd8652287c322fd8f"
   },
   {
     "url": "images/products/3-white-marble-stone-4-1.jpeg",
-    "revision": "f634562f18b204767411048b51621b0f"
+    "revision": "b471f647c0aa8361648044f4b31d0277"
   },
   {
     "url": "images/products/3-white-marble-stone-4-2.jpeg",
-    "revision": "39ad8a3647dc6973ffb9213d66a2b052"
+    "revision": "eacfd702a4280f6e74be2074c89cf39f"
   },
   {
     "url": "images/products/3-white-marble-stone-4.jpeg",
-    "revision": "3e325b226b04ffcff24ea20840332855"
+    "revision": "27c6e96c98cc7ce83e830fb2f3b70071"
   },
   {
     "url": "images/products/3-white-marble-stone.jpeg",
-    "revision": "294a98cae08c339afad14cd7e9fa98aa"
+    "revision": "1bcb58745d17df022d5450e5d4fb94e7"
   },
   {
     "url": "images/products/a-1200x300.jpeg",
-    "revision": "2bbe1622644ce18942bd28e19a68e75d"
+    "revision": "7c636b725127ef6078e00a92f7df4aec"
   },
   {
     "url": "images/products/a.jpeg",
-    "revision": "2adcaf3a2c4574e2a7bd08d8b3639433"
+    "revision": "a14bfc4452b6a66726dcd9f3a75baa7b"
   },
   {
     "url": "images/products/b-1200x300.jpeg",
-    "revision": "6b659151fc7ee93baa88f225a1fc0592"
+    "revision": "7b55d56e550f3b74dcfe1d426494b44f"
   },
   {
     "url": "images/products/b.jpeg",
-    "revision": "be6ef2289a2570717dc6ec7e723a9821"
+    "revision": "8369707649e72d10ed695a1108c7eb55"
   },
   {
     "url": "images/products/c-1200x300.jpeg",
-    "revision": "7f91258922a757fe87f7865ef37969d6"
+    "revision": "a0c44b92f0466af98542253845a7a6b1"
   },
   {
     "url": "images/products/c.jpeg",
-    "revision": "92cd367a4fb1a2b25ff765340f46389c"
+    "revision": "57d9d6d39c332a51df464ba2efcd2f1a"
   },
   {
     "url": "images/products/d.jpeg",
-    "revision": "7a82d8cd19e85f9705424154f71b6126"
+    "revision": "b674f2c052ff46c51f03f7cfd0dc7322"
   },
   {
     "url": "images/products/e.jpeg",
-    "revision": "7fd484a91844248e3885dc6f7b3f6894"
+    "revision": "ca8d8e3c8f4a68158f5d889bf272cfed"
   },
   {
     "url": "images/products/f.jpeg",
-    "revision": "c76d04cd59c50fc7591bd29ab49bd6d0"
+    "revision": "6a843bf455acfc648b5e2ea9eb9a1856"
   },
   {
     "url": "images/products/g.jpeg",
@@ -223,19 +223,19 @@ self.__precacheManifest = [
   },
   {
     "url": "images/products/h.jpeg",
-    "revision": "07b7b834e3ff5ad7be3155a8f1282788"
+    "revision": "b22802c6952ea9230eae90abec85016c"
   },
   {
     "url": "images/products/i.jpeg",
-    "revision": "7bbb853abcb20eb8c6d5bc1720ef35f2"
+    "revision": "058688b446f8da53de31aa7905835ed0"
   },
   {
     "url": "images/products/marble-cream.jpeg",
-    "revision": "40c29cd42257a6ea9b14f5497c711137"
+    "revision": "112cd4f6f74781f5e2957f9d107b297c"
   },
   {
     "url": "images/products/marble-grey.jpeg",
-    "revision": "de9362224c503fc9aa8cc3b9eaf27429"
+    "revision": "3ff24032c7a37edbb5ac1d19124173c4"
   },
   {
     "url": "images/spinner.gif",
@@ -243,67 +243,71 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "6e044035362640dd236be54595f2ba49"
+    "revision": "f5c0081a6ed2e4f8607828fac23009b0"
   },
   {
     "url": "inspiration/index.html",
-    "revision": "ee0f789e4d2f36927e7dd34654b26b81"
+    "revision": "a6040947088111daa95107f3df281a6e"
   },
   {
     "url": "manifest.json",
     "revision": "2f93bb21d552716bda9eac5f6d2ef802"
   },
   {
+    "url": "order/index.html",
+    "revision": "a2f1cfffc75bb6f839415dbef8336914"
+  },
+  {
     "url": "product/bathup/index.html",
-    "revision": "d83bd861959b271c1a1ebb8671365747"
+    "revision": "0154e68bcb02f07da1eb7e100b702556"
   },
   {
     "url": "product/cream-marble/index.html",
-    "revision": "51582f8b2a72c754088d2a8cf90a4dd7"
+    "revision": "5769ab91da3445af4668f141c358203e"
   },
   {
     "url": "product/index.html",
-    "revision": "05e8346ae0ce795bcb1e42205242c4de"
+    "revision": "a67610ce7899824c1d12709d70d214ba"
   },
   {
     "url": "product/marble-cream/index.html",
-    "revision": "8d93a398c759a64c3aba9f4d19a3ba54"
+    "revision": "9fbb35be91d6a3159dd5749a9db74ba5"
   },
   {
     "url": "product/marble-grey/index.html",
-    "revision": "3159ea8453b62962330370c8413ee163"
+    "revision": "898039b529526c8d464981364055401a"
   },
   {
     "url": "product/river-stone/index.html",
-    "revision": "a712e2e0fbf837bb4f485db1cbc159f8"
+    "revision": "c9573fe4f13e6f945ec3fc9352869d33"
   },
   {
     "url": "product/terrazo-print/index.html",
-    "revision": "b7686eb9886140f4b500a646159d437d"
+    "revision": "9d569695d4f9b059805ab9c3dec364cb"
   },
   {
     "url": "product/white-marble-stone-2/index.html",
-    "revision": "39fa5646f4452d1066514817b96b0823"
+    "revision": "1173fd023d25f35d21d0c8b0d67d9d00"
   },
   {
     "url": "product/white-marble-stone-3/index.html",
-    "revision": "a7c7f792666e9aeb24178a2f55696e81"
+    "revision": "e344132c78a31f21fc3ef48276ed9519"
   },
   {
     "url": "product/white-marble-stone-4/index.html",
-    "revision": "97c6c8ffa6667f2a886eea214c0928a9"
+    "revision": "824befca0dc3787ff77b069270391a85"
   },
   {
     "url": "product/white-marble-stone/index.html",
-    "revision": "cb29f0777d772701e1b1babe08f10284"
+    "revision": "9178a37ae5de11839e310246482397f2"
   },
   {
     "url": "project/index.html",
-    "revision": "dab33f058c3a00d333bd5a91e651a244"
+    "revision": "5a4bbd82e9971b5d5cb03d1d7315c8cb"
   },
   {
     "url": "project/wastafel-1/index.html",
-    "revision": "cdb7bc2ed33fac5bf4738afa7de79cfe"
+    "revision": "e84446ecc72f6e58e0b2a69aaa03d109"
   },
   {
     "url": "robots.txt",
@@ -311,7 +315,7 @@ self.__precacheManifest = [
   },
   {
     "url": "sitemap.xml",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "revision": "a0f4457983b1d469daf824298565aebf"
   },
   {
     "url": "static/app.css",
@@ -324,6 +328,10 @@ self.__precacheManifest = [
   {
     "url": "static/images/about-us.png",
     "revision": "5ae3ac9d55fd87ed30f7ccf5a09000fa"
+  },
+  {
+    "url": "static/images/cs.jpg",
+    "revision": "1436c44ff6436a14c6836067d936242a"
   },
   {
     "url": "static/images/icons/about-us.png",
@@ -375,7 +383,7 @@ self.__precacheManifest = [
   },
   {
     "url": "terms-and-conditions/index.html",
-    "revision": "8f8637d3a8bf4800566c653a4333cf30"
+    "revision": "aafab8576869f5f9f668d6bbb1da52c5"
   },
   {
     "url": "workbox-config.js",
