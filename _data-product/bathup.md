@@ -1,25 +1,25 @@
 ---
 layout: item
-title-product: Bathtup
+title-product: Bathup
 photos: /images/products/i.jpeg
 subtitle-product: Code &#58; BMP1
-bahan-product: White Marble Stone
+bahan-product: White Marble Stone and Grey Stone
 ukuran-product: Custom
 warna-product: White and Grey
 description: take a shower like in nature
-description-product1: 
-description-product2: 
+description-product1: you can get another model
+description-product2: according to your wish
 description-product3: Design &#58; Widhiyan Pandega
-thumbnails1: 
-thumbnails1-alt: 
-thumbnails2: 
-thumbnails2-alt: 
-thumbnails3: 
-thumbnails3-alt: 
-thumbnails4: 
-thumbnails4-alt: 
-thumbnails5: 
-thumbnails5-alt: 
-thumbnails6: 
-thumbnails6-alt: 
+thumbnails1: /images/products/bathup-1.webp
+thumbnails1-alt: Bathup
+thumbnails2: /images/products/bathup-2.webp
+thumbnails2-alt: Bathup
+thumbnails3: /images/products/bathup-3.webp
+thumbnails3-alt: Bathup
+thumbnails4: /images/products/bathup-4.webp
+thumbnails4-alt: Bathup
+thumbnails5: /images/products/bathup-3.webp
+thumbnails5-alt: Bathup
+thumbnails6: /images/products/bathup-2.webp
+thumbnails6-alt: Bathup
 ---
