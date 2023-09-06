@@ -27,7 +27,7 @@ whatsapp-api: https://api.whatsapp.com/send?text=Hallo%20ellogue craft gallery.c
 fb_app_id: 2454810208126945
 google-my-bussiness: 
 favicon: /favicon.ico
-siteurl: https://ellogue.com
+siteurl: https://projectellogue.github.io
 permalink: pretty
 plugins:
   - jekyll-feed
